@@ -1,0 +1,4 @@
+com\database\hibernate\dao\AbstractHibernateDAO.class
+com\database\hibernate\util\HibernateUtil.class
+com\database\hibernate\dao\IGenericHibernateDAO.class
+com\database\hibernate\dao\impl\GenericHibernateDAOImpl.class
