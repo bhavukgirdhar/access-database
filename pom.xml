@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.bhavuk.database</groupId>
 	<artifactId>access-database</artifactId>
-	<version>0.0.1-SNAPSHOT</version>	
+	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
 		<spring.version>4.2.5.RELEASE</spring.version>
@@ -52,12 +52,11 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.8.0</version>
 				<configuration>
-					<release>11</release>
+					<source>1.11</source>
+					<target>1.11</target>
 				</configuration>
 			</plugin>
 		</plugins>
-
-
-
 	</build>
+
 </project>
