@@ -1,0 +1,1 @@
+mvn deploy:deploy-file -Dfile=C:\Users\bgirdhar\microservices-workspace-1\access-database\target\access-database-0.0.1-SNAPSHOT.jar -DgroupId=com.bhavuk.database -DartifactId=access-database  -Dversion=0.0.1-SNAPSHOT -Dpackaging=jar  -Durl=file:./local-maven-repository/ -DrepositoryId=maven-repository  -DupdateReleaseInfo=true
